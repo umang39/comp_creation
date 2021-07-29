@@ -1,0 +1,15 @@
+@import './variable.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+    color: var(--card-text-color) !important;
+    width: var(--card-height) !important;
+    min-height: var(--card-width) !important;
+    background-color: var(--card-bg-color);
+    border-radius: var(--card-radius) !important;
+}
