@@ -10,28 +10,43 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="item">
+            <h1>Let's make a card</h1>
+            <h2>choose properties</h2>
+            <h5>Height</h5>
+            <input type="range" name="" id="w">
+            <h5>Width</h5>
+            <input type="range" name="" id="h">
+            <h5>Radius</h5>
+            <input type="range" name="" id="radius" min="0" max="50">
+            <h5>Background color</h5>
+            <input type="color" name="" id="bg">
+            <h5>text color</h5>
+            <input type="color" name="" id="text">
 
-    <h1>Let's make a card</h1>
-    <h2>choose properties</h2>
-    <h5>Height</h5>
-    <input type="range" name="" id="w">
-    <h5>Width</h5>
-    <input type="range" name="" id="h">
-    <h5>Radius</h5>
-    <input type="range" name="" id="radius" min="0" max="50">
-    <h5>Background color</h5>
-    <input type="color" name="" id="bg">
-    <h5>text color</h5>
-    <input type="color" name="" id="text">
+            <h5>Title</h5>
+            <input type="text" id="title">
+            <h5>Body</h5>
+            <textarea rows="4" cols="30" id="bod"></textarea>
 
-    <h5>Title</h5>
-    <input type="text" id="title">
-    <h5>Body</h5>
-    <textarea rows="4" cols="30" id="bod"></textarea>
-    <button onclick="fun()">submit</button>
-    <div id="card">
+            <h5>Shadow</h5>
+            horizontal : <input type="range" name="" id="hori" max="20" min="-20">
+            <br> Vertical : <input type="range" name="" id="vert" max="20" min="-20">
+            <br> blur : <input type="range" name="" id="blur" max="20" min="0">
+            <br> spread : <input type="range" name="" id="spr" max="20" min="0">
+            <br>
+            <button onclick="fun()">submit</button>
+        </div>
+        <div class="item">
+            <div id="card">
 
+            </div>
+        </div>
     </div>
+
+
+
 </body>
 
 <script src="script.js"></script>

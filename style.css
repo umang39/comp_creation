@@ -4,7 +4,7 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-div {
+#card {
     margin: 10px;
     padding: 10px;
     color: var(--card-text-color) !important;
@@ -12,4 +12,27 @@ div {
     min-height: var(--card-width) !important;
     background-color: var(--card-bg-color);
     border-radius: var(--card-radius) !important;
+    box-shadow: var(--card-horizontal, 0) var(--card-vertical, 0) var(--card-blur, 3) var(--card-spread, 6) #3333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: 30%;
+}
+
+.item:last-child {
+    width: 60%;
+    align-self: center;
+}
+
+button {
+    margin: 20px;
+    padding: 7px 14px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
 }
