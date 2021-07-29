@@ -12,7 +12,7 @@
     min-height: var(--card-width) !important;
     background-color: var(--card-bg-color);
     border-radius: var(--card-radius) !important;
-    box-shadow: var(--card-horizontal, 0) var(--card-vertical, 0) var(--card-blur, 3) var(--card-spread, 6) #3333;
+    box-shadow: var(--card-horizontal, 0) var(--card-vertical, 0) var(--card-blur, 3) var(--card-spread, 6) var(--card-sh-color);
 }
 
 .container {

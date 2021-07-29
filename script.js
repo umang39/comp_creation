@@ -12,7 +12,7 @@ function fun() {
     let vert = document.querySelector('#vert').value
     let spread = document.querySelector('#spr').value
     let blur = document.querySelector('#blur').value
-
+    let shColor = document.querySelector('#sh-color').value
     let card = document.querySelector('#card')
     console.log(title)
     console.log(card)
@@ -30,5 +30,7 @@ function fun() {
     document.documentElement.style.setProperty('--card-vertical', vert + 'px')
     document.documentElement.style.setProperty('--card-spread', spread + 'px')
     document.documentElement.style.setProperty('--card-blur', blur + 'px')
+    document.documentElement.style.setProperty('--card-sh-color', shColor)
+
 
 }
